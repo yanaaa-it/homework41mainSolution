@@ -11,7 +11,7 @@ int main() {
 		} while (length <= 0);
 
 		user_init(array, length);
-       print("Result array:\neven numbers:");
+       print("Result array:\n even numbers:");
 	   print(even_odd_number(array, length));
 		
 
