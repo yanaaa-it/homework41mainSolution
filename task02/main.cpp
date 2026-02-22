@@ -13,9 +13,10 @@ int main() {
 	
 
 	user_init(array, length);
-	string same=find_same_number(array,length)==true?"all numbers same":"number(s) doesn't same";
+	bool same=find_same_number(array,length);
+	string msg= same?"all numbers same":"number(s) doesn't same";
 	print("Result array:");
-	print(same);
+	print(msg);
 
 
 	return 0;
