@@ -12,7 +12,7 @@ int main() {
 
 		user_init(array, length);
        print("Result array:\n even numbers:");
-	   print(even_odd_number(array, length));
+	   print(to_string(even_number(array, length)));
 		
 
 	return 0;
